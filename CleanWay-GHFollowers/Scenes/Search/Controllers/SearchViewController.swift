@@ -15,6 +15,9 @@ final class SearchViewController: UIViewController, AlertShowable {
   override func viewDidLoad() {
     super.viewDidLoad()
     configure()
+    NetworkManager.shared.fetch(Follower.self, for: "nsemirdev", endpoint: .user) { result in
+      
+    }
   }
   
   override func loadView() {
