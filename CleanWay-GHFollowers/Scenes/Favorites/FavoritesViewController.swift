@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FavoritesViewController.swift
 //  CleanWay-GHFollowers
 //
 //  Created by Emir Alkal on 26.01.2023.
@@ -7,13 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class FavoritesViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    view.backgroundColor = .systemRed
   }
-
-
 }
-
