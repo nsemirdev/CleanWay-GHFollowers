@@ -127,8 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				2D26829E29820667007CC4FE /* Protocols */,
-				2D26828C2981F967007CC4FE /* SearchViewController.swift */,
-				2D2682952981FB7F007CC4FE /* SearchSceneView.swift */,
+				2D6B59A12982098400A1F63C /* Controllers */,
+				2D6B59A02982097C00A1F63C /* Views */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -175,6 +175,22 @@
 				2D26829F29820674007CC4FE /* SearchSceneDelegate.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2D6B59A02982097C00A1F63C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D2682952981FB7F007CC4FE /* SearchSceneView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D6B59A12982098400A1F63C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D26828C2981F967007CC4FE /* SearchViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
